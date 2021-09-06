@@ -20,6 +20,9 @@ const ServerButton: React.FC<Props> = ({
     return (
         <Button
             isHome={isHome}
+            hasNotifications={hasNotifications}
+            mentions={mentions}
+            className={selected ? 'active' : ''}
         >
             {isHome && <img src={Logo} alt="Rocketseat" />}
         </Button>
