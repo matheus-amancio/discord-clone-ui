@@ -50,7 +50,7 @@ export const InviteIcon = styled(PersonAdd)`
     color: var(--symbol);
     cursor: pointer;
 
-    transition: color 0.2s;
+    transition: color 0.2s; re
 
     &:hover {
         color: var(--white);
